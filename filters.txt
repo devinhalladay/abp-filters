@@ -1,0 +1,10 @@
+[Adblock Plus 2.0]
+! Homepage: http://devinhalladay.com
+! Title: Devin's AdBlock Filters
+!
+! The Deck
+@@||decknetwork.net
+!
+! Carbon
+@@||engine.carbonads.com
+@@||carbonads.com
