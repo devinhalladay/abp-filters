@@ -14,5 +14,8 @@
 @@||fusionads.net
 ##*#fusion_ad
 ##a[href^="http://fusionads.net"]
+##a[href^="http://fusionads.net/"]
+##a[href^="http://fusionads.net"] > *
+##a[href^="http://fusionads.net/"] > *
 ##*.fusionentire
 ##a.fusionLink
