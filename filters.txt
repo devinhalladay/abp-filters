@@ -12,4 +12,6 @@
 ! Fusion
 @@||adn.fusionads.net
 @@||fusionads.net
-##*#fusion_ad
+##div#fusion_ad
+##div.fusionentire
+##a.fusionLink
