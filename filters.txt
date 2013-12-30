@@ -8,16 +8,7 @@
 ! Carbon
 @@||engine.carbonads.com
 @@||carbonads.com
-##.carbon-ad
-##.carbon-ad > *
 !
 ! Fusion
 @@||adn.fusionads.net
 @@||fusionads.net
-##*#fusion_ad
-##a[href^="http://fusionads.net"]
-##a[href^="http://fusionads.net/"]
-##a[href^="http://fusionads.net"] > *
-##a[href^="http://fusionads.net/"] > *
-##.fusionentire
-##a.fusionLink
