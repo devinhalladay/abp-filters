@@ -8,6 +8,8 @@
 ! Carbon
 @@||engine.carbonads.com
 @@||carbonads.com
+##.carbon-ad
+##.carbon-ad > *
 !
 ! Fusion
 @@||adn.fusionads.net
