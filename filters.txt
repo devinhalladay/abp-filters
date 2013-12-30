@@ -13,5 +13,6 @@
 @@||adn.fusionads.net
 @@||fusionads.net
 ##*#fusion_ad
+##a[href^="http://fusionads.net/"]
 ##*.fusionentire
 ##a.fusionLink
