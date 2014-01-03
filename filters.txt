@@ -3,12 +3,67 @@
 ! Title: Devin's AdBlock Filters
 !
 ! The Deck
-@@||decknetwork.net
+@@|decknetwork.net
 !
 ! Carbon
-@@||engine.carbonads.com
-@@||carbonads.com
+@@|engine.carbonads.com
+@@|carbonads.com
 !
 ! Fusion
-@@||adn.fusionads.net
-@@||fusionads.net
+@@|adn.fusionads.net
+@@|fusionads.net
+!
+! Remove Stupid Stuff
+! Stupid Share Buttons/Footers/etc
+##*#floating_tools
+##*#sharebar
+##*#postSharing
+##*#ps-widgets
+##*#top_chicklets
+##div[gigid ="showShareBarUI"]
+##*#wibiyaToolbar
+##*#aptureD
+##*#embtv-static-closed-bottom
+! Block Meebo Crud
+##*#meebo
+##iframe#meebo-iframe"]
+##*#meebo-iframe
+##*#meebo-canvas-1
+##*#meebo-canvas-2
+##*#meebo-canvas-3
+##*#meebo-canvas-4
+##*#meebo-canvas-5
+##*#meebo-canvas-6
+##div#shareFloat
+##div#shareNarrow
+##div.shareNarrow
+##div.social-tools
+##div#incsharebox
+##ul.socialActions
+##div.getsocial
+!-- Unremove Ads or Other Bits --!
+!- Load Localhost Ads for Testing -!
+@@|http://localhost/$document
+@@|https://localhost/$document
+@@|site/$document
+!- Stackoverflow Ads -!
+@@|http://ads.stackoverflow.com/$document
+!- The Deck Ads -!
+@@|http://www.northmay.com/deck/$document
+@@|http://connect.decknetwork.net/$document
+@@div#SidebarTheDeck
+@@|http://daringfireball.net/$document
+!- CodingHorror.com Ads -!
+@@-.welovecodinghorror
+!- Project Wonderful -!
+@@|http://projectwonderful.com/$document
+@@|http://www.projectwonderful.com/$document
+!- IndieClick -!
+@@|http://optimize.indieclick.com/$document
+!- Fusion Ads -!
+@@|http://adn.fusionads.net/$document
+@@|https://adn.fusionads.net/$document
+@@!http://assets0.fusionads.net/$document
+@@!https://assets0.fusionads.net/$document
+!- SMBC-Comics.com -!
+smbc-comics.com#@#sharebar
